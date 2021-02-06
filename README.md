@@ -1,6 +1,14 @@
 # Layer-Peeled Model
 This is the code repository for the ArXiv paper [Layer-Peeled Model: Toward Understanding Well-Trained Deep Neural Networks](https://arxiv.org/pdf/2101.12699.pdf).
-
+If you use this code for your work, please cite
+```
+@article{fang2021layer,
+  title={Layer-Peeled Model: Toward Understanding Well-Trained Deep Neural Networks},
+  author={Fang, Cong and He, Hangfeng and Long, Qi and Su, Weijie J},
+  journal={arXiv preprint arXiv:2101.12699},
+  year={2021}
+}
+```
 ## Installing Dependencies
 Use virtual environment tools (e.g miniconda) to install packages and run experiments\
 python==3.6.7\
