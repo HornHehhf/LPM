@@ -126,7 +126,7 @@ if __name__ == '__main__':
     weight_ratio = int(sys.argv[5].split('=')[1])
     print('weight ratio', weight_ratio)
     config = {'dir_path': '/path/to/working/dir', 'data': data_option, 'model': model_option, 't1': t1, 'R': R,
-              'simple_test_batch_size': 100, 'fixed': 'big', 'weight_ratio': weight_ratio, 'weight_decay': 5e-4}
+              'simple_test_batch_size': 100, 'fixed': 'small', 'weight_ratio': weight_ratio, 'weight_decay': 5e-4}
     if data_option == 'fashion_mnist':
         config['color_channel'] = 1
     else:

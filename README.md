@@ -48,7 +48,7 @@ python minority_collapse_oversampling.py data_option=cifar10 model_option=VGG13 
 ```
 
 ## Reproducing experiments for Layer-Peeled Model
-In this part, you need to install cvxpy==1.7.1 successfully (in a new environment), which might be incompatible with dependencies in deep learning experiments. \
+In this part, you need to install cvxpy==1.1.7 successfully (in a new environment), which might be incompatible with dependencies in deep learning experiments. \
 To reproduce the experiments for the relaxed convex optimization program of the Layer-Peeled Model (Figure 3)
 ```
 python optimization.py
