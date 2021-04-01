@@ -71,7 +71,7 @@ def neural_collapse_optimization(class_num, big_class_num, ratio, feature_consta
     for i in range(2 * c)[c + t1: ]:
         for j in range(2 * c)[c + t1:]:
             if i != j:
-                cos_value = 1 - spatial.distance.cosine(X.value[i], X.value[j])
+                cos_value = X.value[i, j] / np.sqrt(X.value[i, i] * X.value[j, j])
                 between_class_cos_small.append(cos_value)
     print(X.value[c + t1: 2 * c, c + t1: 2 * c])
     print('avg between-class weight cosine for small classes', np.mean(between_class_cos_small))
