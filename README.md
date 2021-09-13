@@ -1,5 +1,5 @@
 # Layer-Peeled Model
-This is the code repository for the ArXiv paper [Layer-Peeled Model: Toward Understanding Well-Trained Deep Neural Networks](https://arxiv.org/pdf/2101.12699.pdf).
+This is the code repository for the ArXiv paper [Exploring Deep Neural Networks via Layer-Peeled Model: Minority Collapse in Imbalanced Training](https://arxiv.org/pdf/2101.12699.pdf).
 If you use this code for your work, please cite
 ```
 @article{fang2021layer,
