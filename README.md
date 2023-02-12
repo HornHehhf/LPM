@@ -1,12 +1,16 @@
 # Layer-Peeled Model
-This is the code repository for the ArXiv paper [Exploring Deep Neural Networks via Layer-Peeled Model: Minority Collapse in Imbalanced Training](https://arxiv.org/pdf/2101.12699.pdf).
+This is the code repository for the PNAS paper [Exploring Deep Neural Networks via Layer-Peeled Model: Minority Collapse in Imbalanced Training](https://www.pnas.org/doi/10.1073/pnas.2103091118).
 If you use this code for your work, please cite
 ```
-@article{fang2021layer,
-  title={Layer-Peeled Model: Toward Understanding Well-Trained Deep Neural Networks},
+@article{fang2021exploring,
+  title={Exploring deep neural networks via layer-peeled model: Minority collapse in imbalanced training},
   author={Fang, Cong and He, Hangfeng and Long, Qi and Su, Weijie J},
-  journal={arXiv preprint arXiv:2101.12699},
-  year={2021}
+  journal={Proceedings of the National Academy of Sciences},
+  volume={118},
+  number={43},
+  pages={e2103091118},
+  year={2021},
+  publisher={National Acad Sciences}
 }
 ```
 ## Installing Dependencies
